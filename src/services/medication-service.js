@@ -94,7 +94,7 @@ async function updateMedication(id, Medication) {
     Medication
   );
   console.log(Medication);
-  return medResponse.json();
+  return "";
 }
 
 async function delMedication(id) {
